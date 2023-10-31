@@ -1,14 +1,70 @@
+@font-face {
+    src: url("/fonts/PlayfairDisplay-Bold.ttf") format("woff2");
+    font-family: "playfairBold";
+  }
+
+  @font-face {
+    src: url("/fonts/PlayfairDisplay-Regular.ttf") format("woff2");
+    font-family: "playfairReg";
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+
 .navbar {
     border-bottom: 5px solid #453750;
     background-color: white;
+    font-family: "playfairReg";
 
 
 }
 
-    .nav-link:hover {
-        color:#453750;
-    }
+.nav-link:hover {
+    color:#9882AC;
+}
 
 .nav-link {
-    color: #73648A;
+    color: #0C0910;
+    font-size: 20px;
 }
+
+.dropdown-item {
+    color: #0C0910;
+
+}
+
+.dropdown-item:hover {
+    background-color: #E9E5F0;
+
+}
+
+.dropdown-toggle:visited {
+    color:#0C0910;
+
+}
+
+.dropdown-toggle:hover {
+    color:#9882AC;
+
+}
+
+.titre {
+    font-family:'playfairBold';
+    text-align: center;
+    margin: 20px;
+    color: #0C0910;
+  
+}
+
+.bi {
+    text-align: center;
+
+}
+
+.navbar-nav {
+    width: 50%;
+    justify-content: space-between;
+}
+
