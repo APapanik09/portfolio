@@ -13,6 +13,11 @@
     font-family: "franchise";
   }
 
+  @font-face {
+    src: url("/fonts/FranchiseFilled.ttf") format("woff2");
+    font-family: "franchiseF";
+  }
+
 
 * {
     box-sizing: border-box;
@@ -74,7 +79,7 @@
 .herotitle {
     position: absolute;
     font-family: 'franchise';
-    font-size: 150px;
+    font-size: 10vw;
     color: white;
     left: 50%;
     position: absolute;
@@ -83,6 +88,20 @@
     text-align: center;
     user-select: none;
 }
+
+@media screen and (max-width: 320px){ 
+    .herotitle {
+        font-size: 15vw; 
+        
+    }
+
+    .texte-presentation {
+        font-size: 9px;
+
+    }
+
+}
+
 
 video {
     object-fit: fill !important;
@@ -98,17 +117,50 @@ video {
 }
 
 .presentation {
-    margin: 25px 25px;
+    margin: 35px 0;
     border-bottom: 5px solid #98C1D9;
+    padding-bottom: 20px;
 }
+
 
 .title-presentation {
     font-family:'ralewayBold';
     text-align: center;
+    font-size: 35px;
 }
 .texte-presentation {
     font-family: 'ralewayReg';
     font-size: 25px;
     text-align: center;
+    margin: 0 15px;
     
 }
+
+.comp-title {
+    font-family: 'ralewayBold';
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.competences {
+    text-align: center;
+    margin-bottom: none;
+    font-size: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.complist {
+    border-bottom: 5px solid #98C1D9;
+    padding-bottom: 20px;
+
+    div {
+        margin: 2% 0;
+    }
+}
+
