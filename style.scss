@@ -9,19 +9,10 @@
   }
 
   @font-face {
-    src: url("/fonts/Demode.ttf") format("woff2");
-    font-family: "demode";
-  }
-
-  @font-face {
     src: url("/fonts/Franchise.ttf") format("woff2");
     font-family: "franchise";
   }
 
-  @font-face {
-    src: url("/fonts/TATTI__.TTF") format("woff2");
-    font-family: "tattoo";
-  }
 
 * {
     box-sizing: border-box;
@@ -29,7 +20,7 @@
 
 
 .navbar {
-    border-bottom: 5px solid #453750;
+    border-bottom: 5px solid #98C1D9;
     background-color: white;
     font-family: "playfairReg";
 
@@ -37,7 +28,7 @@
 }
 
 .nav-link:hover {
-    color:#9882AC;
+    color:#E0FBFC;
 }
 
 .nav-link {
@@ -51,7 +42,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: #E9E5F0;
+    background-color: #E0FBFC;
 
 }
 
@@ -61,7 +52,7 @@
 }
 
 .dropdown-toggle:hover {
-    color:#9882AC;
+    color:#E0FBFC;
 
 }
 
@@ -90,10 +81,18 @@
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    user-select: none;
 }
 
 video {
     object-fit: fill !important;
     height: 100%;
     width: 100%;
+}
+
+.navbar-brand {
+    img {
+        object-fit: fill;
+
+    }
 }
