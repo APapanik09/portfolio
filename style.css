@@ -17,11 +17,11 @@
 .navbar {
   border-bottom: 5px solid #98C1D9;
   background-color: white;
-  font-family: "ralewayReg";
+  font-family: "ralewayBold";
 }
 
 .nav-link:hover {
-  color: #E0FBFC;
+  color: #98C1D9;
 }
 
 .nav-link {
@@ -42,7 +42,7 @@
 }
 
 .dropdown-toggle:hover {
-  color: #E0FBFC;
+  color: #98C1D9;
 }
 
 .bi {
@@ -84,4 +84,20 @@ video {
 .navbar-brand img {
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+.presentation {
+  margin: 25px 25px;
+  border-bottom: 5px solid #98C1D9;
+}
+
+.title-presentation {
+  font-family: "ralewayBold";
+  text-align: center;
+}
+
+.texte-presentation {
+  font-family: "ralewayReg";
+  font-size: 25px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
