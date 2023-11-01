@@ -6,6 +6,18 @@
   src: url("/fonts/PlayfairDisplay-Regular.ttf") format("woff2");
   font-family: "playfairReg";
 }
+@font-face {
+  src: url("/fonts/Demode.ttf") format("woff2");
+  font-family: "demode";
+}
+@font-face {
+  src: url("/fonts/Franchise.ttf") format("woff2");
+  font-family: "franchise";
+}
+@font-face {
+  src: url("/fonts/TATTI__.TTF") format("woff2");
+  font-family: "tattoo";
+}
 * {
   box-sizing: border-box;
 }
@@ -52,5 +64,24 @@
 
 .hero {
   height: 75vh;
+  width: 100%;
+}
+
+.herotitle {
+  position: absolute;
+  font-family: "franchise";
+  font-size: 150px;
+  color: white;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+video {
+  -o-object-fit: fill !important;
+     object-fit: fill !important;
+  height: 100%;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
