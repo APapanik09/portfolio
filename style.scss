@@ -1,11 +1,11 @@
 @font-face {
-    src: url("/fonts/PlayfairDisplay-Bold.ttf") format("woff2");
-    font-family: "playfairBold";
+    src: url("/fonts/Raleway-Bold.ttf") format("woff2");
+    font-family: "ralewayBold";
   }
 
   @font-face {
-    src: url("/fonts/PlayfairDisplay-Regular.ttf") format("woff2");
-    font-family: "playfairReg";
+    src: url("/fonts/Raleway-Regular.ttf") format("woff2");
+    font-family: "ralewayReg";
   }
 
   @font-face {
@@ -22,7 +22,7 @@
 .navbar {
     border-bottom: 5px solid #98C1D9;
     background-color: white;
-    font-family: "playfairReg";
+    font-family: "ralewayReg";
 
 
 }
