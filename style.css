@@ -133,8 +133,16 @@ html {
   font-size: 20px;
 }
 
+.listtag {
+  font-family: "ralewayBold";
+}
+
 ul {
   list-style-type: none;
+}
+
+li {
+  font-family: "ralewayReg";
 }
 
 .complist {
@@ -149,4 +157,25 @@ h2 {
   font-family: "ralewayBold";
   text-align: center;
   font-size: 35px;
+}
+
+.deuxDTitle {
+  margin-top: 35px;
+}
+
+.DeuxD {
+  height: 50vh;
+  width: 100%;
+}
+
+.textAnim {
+  font-family: "ralewayReg";
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+video {
+  margin: none;
 }/*# sourceMappingURL=style.css.map */
