@@ -67,8 +67,7 @@ html {
   width: 100%;
 }
 .hero video {
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   height: 100%;
   width: 100%;
 }
@@ -83,9 +82,7 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 320px) {
@@ -97,8 +94,7 @@ html {
   }
 }
 .navbar-brand img {
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .presentation {
@@ -165,7 +161,7 @@ h2 {
 
 .DeuxD {
   height: 50vh;
-  width: 100%;
+  width: 90%;
 }
 
 .textAnim {
