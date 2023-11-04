@@ -92,6 +92,9 @@ html {
   .texte-presentation {
     font-size: 9px;
   }
+  .textVid {
+    font-size: 1px;
+  }
 }
 .navbar-brand img {
   object-fit: fill;
@@ -160,8 +163,8 @@ h2 {
 }
 
 .DeuxD {
-  height: 50vh;
-  width: 90%;
+  height: 50%;
+  width: 70%;
 }
 
 .textAnim {
@@ -170,8 +173,31 @@ h2 {
   text-align: center;
   margin: 20px auto;
   max-width: 1000px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #98C1D9;
 }
 
 video {
   margin: none;
+}
+
+.projectTitle {
+  margin-top: 12px;
+  text-align: center;
+  font-family: "ralewayBold";
+}
+
+.videoV {
+  height: 50%;
+  width: 70%;
+}
+
+.textVid {
+  font-family: "ralewayReg";
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #98C1D9;
 }/*# sourceMappingURL=style.css.map */
