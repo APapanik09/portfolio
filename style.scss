@@ -98,20 +98,17 @@ html {
     user-select: none;
 }
 
-@media screen and (max-width: 320px){ 
-    .herotitle {
-        font-size: 15vw; 
-        
-    }
+@media screen and (min-width: 320px){ 
+ 
+    .bi-github {
+    width: 50px;
+    height: 50px;
+}
 
-    .texte-presentation {
-        font-size: 9px;
-
-    }
-
-    .textVid {
-        font-size: 1px;
-    }
+.bi-linkedin {
+    width: 40px;
+    height: 40px;
+}
 
 }
 
@@ -234,3 +231,43 @@ video {
 
 }
 
+.troisV {
+    height: 50%;
+    width: 70%;
+    
+}
+
+.jeuV {
+    height: 50%;
+    width: 70%;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){ 
+    .bi-github {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .bi-linkedin {
+        width: 30px;
+        height: 30px;
+    }
+    .herotitle {
+        font-size: 15vw; 
+        
+    }
+
+    .texte-presentation {
+        font-size: 9px;
+
+    }
+
+    .textVid {
+        font-size: 15px;
+    }
+}

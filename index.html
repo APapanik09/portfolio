@@ -9,9 +9,11 @@
 </head>
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg ">
+    
+    <nav class="navbar sticky-top navbar-expand-lg ">
+      <span id="accueil"></span>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="media/Signature.png" alt="" height="70" width="100"></a>
+          <a class="navbar-brand" href="#accueil"><img src="media/Signature.png" alt="" height="70" width="100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
@@ -20,24 +22,25 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link"  href="#">Accueil</a>
+                <a class="nav-link"  href="#accueil">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Compétences</a>
+                <a class="nav-link" href="#competences">Compétences</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Portfolio
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">2D</a></li>
-                  <li><a class="dropdown-item" href="#">Vidéo</a></li>
-                  <li><a class="dropdown-item" href="#">3D</a></li>
-                  <li><a class="dropdown-item" href="#">Design</a></li>
-                  <li><a class="dropdown-item" href="#">Intéractif</a></li>
+                  <li><a class="dropdown-item" href="#deux">2D</a></li>
+                  <li><a class="dropdown-item" href="#video">Vidéo</a></li>
+                  <li><a class="dropdown-item" href="#trois">3D</a></li>
+                  <li><a class="dropdown-item" href="#jeux">Jeux vidéo</a></li>
+                  <li><a class="dropdown-item" href="#design">Design</a></li>
+                  <li><a class="dropdown-item" href="#interactif">Intéractif</a></li>
                 </ul>
               </li>
             </ul>
@@ -51,25 +54,28 @@
       <section>
         <div class="hero">
           <video class="herovid" height="100%" width="100%" autoplay loop muted src="media/gradient_portfolio.mov"></video>
-          <h1 class="herotitle">Ryan Papanikolaou</h1>
+          <h1 class="herotitle">Alexia Papanikolaou</h1>
 
         </div>
       </section>
       <!--Hero -->
 
       <!--Presentation -->
+      <span id="present"></span>
       <div class="presentation">
         <h1 class="title-presentation">
           Qui suis-je?
         </h1>
         <p class="texte-presentation">
-          Bonjour!  Je m’appelle Ryan Papanikolaou et ce qui m’intéresse dans le domaine du multimédia, c’est principalement les installations intéractive, la vidéo et l’animation 2D.
+          Bonjour!  Je m’appelle Alexia Papanikolaou et ce qui m’intéresse dans le domaine du multimédia, c’est principalement les installations intéractive, la vidéo et l’animation 2D.
         </p>
       </div>
       <!--Presentation -->
 
       <!--Compétences -->
+      
       <div class="container-fluid competences">
+        <span id="competences"></span>
         <h2 class="comp-title">Compétences</h2>
         <ul class="row complist">
           <div class="graphL col-lg-4 col-md-6 col-sm-12">
@@ -97,39 +103,115 @@
 
       <!--Portfolio -->
       <!--2D -->
+      <span id="deux"></span>
       <div class="container-fluid DeuxD">
         <div class="row">
         <h2 class="deuxDTitle col-12">Animation 2D</h2>
-        <video width="90%" height="90%" controls src="media/animation2d_smiley.mov" class="animV"></video>
+        <video width="90%" height="90%" controls poster="media/mrsmiley_poster.png" src="media/animation2d_smiley.mov" class="animV"></video>
         <h3 class="projectTitle">Mr.Smiley</h3>
         <p class="textVid">
-          Court métrage en stop-motion inspiré d'un poème écrit par les étudiants en litérature du Collège Montmorency. Dans ce projet, j'ai eu les rôles de réalisateur, monteur vidéo, animateur et producteur sonore. Ce projet a été réalisé avec les logiciels suivant: Illustrator, After Effects, DaVinci Resolve et Dragonframe. 
+          Court métrage en stop-motion inspiré d'un poème sur le capitalisme écrit par les étudiants en litérature du Collège Montmorency. Dans ce projet, j'ai eu les rôles de réalisateur, monteur vidéo, animateur et producteur sonore.  Réalisé avec les logiciels suivant: Illustrator, After Effects, DaVinci Resolve et Dragonframe. 
         </p>
       </div>
 
       </div>
       <!--Vidéo-->
+      <span id="video"></span>
       <div class="container-fluid videoV">
         <div class="row">
         <h2 class="vidTitle col-12">Vidéo</h2>
-        <video controls src="media/pensee_secoue_final_h264.mov" class="vidV"></video>
+        <video controls poster="media/pensee_poster.png" src="media/pensee_secoue_final_h264.mov" class="vidV"></video>
         <h3 class="projectTitle">Pensée Secouée</h3>
         <p class="textVid">
-          Court métrage réalisé avec un objectif macro qui représente la popularité et son impact sur l'esprit. Dans ce projet, mon rôle était celui du réalisateur et j'ai aussi fait la colorisation des plans.  Ce projet a été réalisé avec les logiciels suivant: After Effects (générique de fin) et DaVinci Resolve. 
+          Court métrage réalisé avec un objectif macro qui représente la popularité et son impact sur l'esprit. Dans ce projet, mon rôle était celui du réalisateur et j'ai aussi fait la colorisation des plans. Réalisé avec les logiciels suivant: After Effects (générique de fin) et DaVinci Resolve. 
         </p>
       </div>
       </div>
       <!--3D-->
-      <div class="container-fluid videoV">
+      <span id="trois"></span>
+      <div class="container-fluid troisV">
         <div class="row">
         <h2 class="vidTitle col-12">3D</h2>
-        <video controls src="media/elucitra_papanikolaou_final.mp4" class="vidV"></video>
+        <video controls poster="media/elucitra_poster.png" src="media/elucitra_papanikolaou_final.mp4" class="vidV"></video>
         <h3 class="projectTitle">Elucitra</h3>
         <p class="textVid">
-          Court métrage en animation 3D sur le thème de l'empathie abstraite. Dans ce projet, j'ai été animateur, monteur vidéo et producteur sonore. Ce projet a été réalisé avec les logiciels suivant: Maya Autodesk, DaVinci Resolve, VCV Rack et Reaper.
+          Court métrage en animation 3D sur le thème de l'empathie abstraite. Dans ce projet, j'ai été animateur, monteur vidéo et producteur sonore. Réalisé avec les logiciels suivant: Maya Autodesk, DaVinci Resolve, VCV Rack et Reaper.
         </p>
       </div>
       </div>
+      <!--Jeux-->
+      <span id="jeux"></span>
+      <div class="container-fluid jeuV">
+        <div class="row">
+        <h2 class="vidTitle col-12">Jeux vidéo</h2>
+        <video controls poster="media/eggcellent_poster.png" src="media/eggcellent.mp4" class="vidV"></video>
+        <h3 class="projectTitle">Eggcellent</h3>
+        <p class="textVid">
+          Courte expérience de réalité augmentée sur le thème du petit déjeuner. L'intéracteur peut scanner une image d'un four pour déclencher sur l'écran deux animations différentes en alternance. Dans ce projet, j'ai été illustrateur, animateur et programmeur. Réalisé avec les logiciels suivant: Illustrator, After Effects et Unity. 
+        </p>
+      </div>
+      </div>
+      <span id="design"></span>
+      <div class="container-fluid jeuV">
+        <div class="row">
+        <h2 class="vidTitle col-12">Design</h2>
+        <video autoplay loop muted src="media/birdsgood.mov" class="vidV"></video>
+        <h3 class="projectTitle">Envolée</h3>
+        <p class="textVid">
+         Autoportraits en vectoriel avec comme thématique les oiseaux qui ont eux de l'importance pour moi au fil de mon évolution en tant qu'artiste et personne. Au début, comme l'on peut voir dans le moodboard, je croyais donner un style "vitrail" à mes différents oiseaux. J'ai eu un changement de coeur pour finalement donner ce résultat. J'ai été l'illustrateur de ce projet. Réalisé avec photoshop.
+        </p>
+      </div>
+      <div class="row">
+        <video autoplay loop muted src="media/spectre.mov" class="vidV"></video>
+        <h3 class="projectTitle">Spectre</h3>
+        <p class="textVid">
+         Générique de film composé d'images libre de droit éditées. Dans ce projet, j'ai été monteur photo. Réalisé avec photoshop.
+        </p>
+      </div>
+        <div class="row">
+        <video autoplay loop muted src="media/afficheconcert.mov" class="vidV"></video>
+        <h3 class="projectTitle">Holding Absence</h3>
+        <p class="textVid">
+         Design de pub pour un concert dans le cadre de mon cours de communication graphique. J'ai eu le rôle de designer dans ce projet. Réalisé avec Adobe XD.
+        </p>
+      </div>
+      </div>
+      <span id="interactif"></span>
+      <div class="container-fluid jeuV">
+        <div class="row">
+        <h2 class="vidTitle col-12">Intéractif</h2>
+        <video poster="media/canevas_poster.png" controls src="media/maxvideo_canevas.mov" class="vidV"></video>
+        <h3 class="projectTitle">Canevas</h3>
+        <p class="textVid">
+          Expérience intéractive collective dans laquelle les intéracteurs peuvent dessiner sur un canevas grâce à des feuilles de papiers colorées et une kinect qui captent leurs silhouettes. J'ai participée à la conception et à la production sonore de ce projet. Réalisé avec Max MSP et VCV Rack.
+        </p>
+      </div>
+      </div>
+            <!--Contact -->
+            <span id="contact"></span>
+            <div class="container-fluid competences">
+              <h2 class="comp-title">Contact</h2>
+              <ul class="row complist">
+                <div class="graphL col-lg-4 col-md-6 col-sm-12">
+                <h3 class="listtag">Courriel</h3>
+                <li>alexiapapanik09@gmail.com</li></div>
+                <div class="devL col-lg-4 col-md-6 col-sm-12">
+                <h3 class="listtag">Location</h3>
+                <li>Laval</li></div>
+                <div class="vidL col-lg-4 col-md-6 col-sm-12">
+                  <h3 class="listtag">Linkedin</h3>
+                <li><a href="https://www.linkedin.com/in/alexia-papanikolaou/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg></a></li></div>
+                <div class="3dL col-12">
+                  <h3 class="listtag">Github</h3>
+                <li><a href="https://github.com/APapanik09"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg></a></li></div>
+              </ul>
+            </div>
+            <!--Contact -->
+
 
 
 
