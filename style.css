@@ -67,7 +67,8 @@ html {
   width: 100%;
 }
 .hero video {
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 100%;
   width: 100%;
 }
@@ -82,7 +83,9 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 @media screen and (min-width: 320px) {
@@ -96,7 +99,8 @@ html {
   }
 }
 .navbar-brand img {
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .presentation {
@@ -229,4 +233,7 @@ video {
   .textVid {
     font-size: 15px;
   }
+}
+ul {
+  padding-left: 0 !important;
 }/*# sourceMappingURL=style.css.map */
